@@ -14,7 +14,8 @@ Tool & Technologies used:
 In order to run the tests execute below maven command:
 - Prerequisite: maven should be configured properly
 - download the code from git and build it using maven in an IDE. or simply unzip the code folder and run the mvn command in command prompt after navigating to the folder where POM is placed.
-- if the parameters are not passed in maven command, default will be used
+- if the parameters are not passed in maven command, default will be used.
+
 mvn clean compile test "-Dbase_url=https://petstore.swagger.io" "-DendPoint=/v2/pet"
 
 upon execution, target folder will be generated and report will be available in 
