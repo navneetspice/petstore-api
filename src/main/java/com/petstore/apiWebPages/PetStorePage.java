@@ -1,6 +1,5 @@
 package com.petstore.apiWebPages;
 
-import com.petstore.controllers.RequestHandlers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.log4testng.Logger;
@@ -10,7 +9,7 @@ import static com.petstore.Constants.*;
 import static com.petstore.objectRepo.ObjectRepository.*;
 
 public class PetStorePage {
-    private static final Logger LOGGER = Logger.getLogger(RequestHandlers.class);
+    private static final Logger LOGGER = Logger.getLogger(PetStorePage.class);
     public static WebDriver driver;
     By OpenAPISectionBtn = By.xpath(OPEN_API_SECTION);
     By tryItOutBtn = By.xpath(TRY_IT_OUT_BTN);
