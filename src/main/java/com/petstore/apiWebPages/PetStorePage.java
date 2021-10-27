@@ -10,7 +10,7 @@ import static com.petstore.objectRepo.ObjectRepository.*;
 
 public class PetStorePage {
     private static final Logger LOGGER = Logger.getLogger(PetStorePage.class);
-    public static WebDriver driver;
+    public WebDriver driver;
     By OpenAPISectionBtn = By.xpath(OPEN_API_SECTION);
     By tryItOutBtn = By.xpath(TRY_IT_OUT_BTN);
     By executeBtn = By.xpath(EXECUTE_BTN);
